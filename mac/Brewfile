@@ -1,0 +1,140 @@
+tap "azure/kubelogin"
+tap "fluxcd/tap"
+tap "hashicorp/tap"
+tap "nikitabobko/tap"
+tap "sdkman/tap"
+tap "terraform-linters/tap"
+# Microsoft Azure CLI 2.0
+brew "azure-cli"
+# Bourne-Again SHell, a UNIX command interpreter
+brew "bash"
+# Programmable completion for Bash 4.2+
+brew "bash-completion@2"
+# Container runtimes on MacOS (and Linux) with minimal setup
+brew "colima", restart_service: :changed
+# Get a file from an HTTP, HTTPS or FTP server
+brew "curl"
+# Tool for exploring each layer in a docker image
+brew "dive"
+# Pack, ship and run any application as a lightweight container
+brew "docker"
+# Docker CLI plugin for extended build capabilities with BuildKit
+brew "docker-buildx"
+# Platform keystore credential helper for Docker
+brew "docker-credential-helper"
+# Simple, fast and user-friendly alternative to find
+brew "fd"
+# Collection of GNU find, xargs, and locate
+brew "findutils"
+# GNU awk utility
+brew "gawk"
+# GitHub command-line tool
+brew "gh"
+# Distributed revision control system
+brew "git"
+# Open-source GitLab command-line tool
+brew "glab"
+# GNU implementation of the famous stream editor
+brew "gnu-sed"
+# Open source programming language to build simple/reliable/efficient software
+brew "go"
+# Open-source build automation tool based on the Groovy and Kotlin DSL
+brew "gradle"
+# Kubernetes package manager
+brew "helm"
+# Improved top (interactive process viewer)
+brew "htop"
+# User-friendly cURL replacement (command-line HTTP client)
+brew "httpie"
+# Lightweight and flexible command-line JSON processor
+brew "jq"
+# Kubernetes CLI To Manage Your Clusters In Style!
+brew "k9s"
+# Run local Kubernetes cluster in Docker
+brew "kind"
+# Kubernetes command-line interface
+brew "kubernetes-cli"
+# Package manager for kubectl plugins
+brew "krew"
+# FAST Kubernetes manifests validator, with support for Custom Resources!
+brew "kubeconform"
+# Tool that can switch between kubectl contexts easily and create aliases
+brew "kubectx"
+# Template-free customization of Kubernetes YAML manifests
+brew "kustomize"
+# Simple terminal UI for git commands
+brew "lazygit"
+# Generic machine emulator and virtualizer
+brew "qemu"
+# Additional guest agents for Lima
+brew "lima-additional-guestagents"
+# Java-based project management
+brew "maven"
+# Hash utilities
+brew "md5sha1sum"
+# Collection of tools that nobody wrote when UNIX was young
+brew "moreutils"
+# Ambitious Vim-fork focused on extensibility and agility
+brew "neovim"
+# Repository manager for binary software components
+brew "nexus"
+# Modern shell for the GitHub era
+brew "nushell"
+# Manage multiple Node.js versions
+brew "nvm"
+# OpenShift command-line interface tools
+brew "openshift-cli"
+# Code formatter for JavaScript, CSS, JSON, GraphQL, Markdown, YAML
+brew "prettier"
+# Search tool like grep and The Silver Searcher
+brew "ripgrep"
+# Safe, concurrent, practical language
+brew "rust"
+# Work with remote images registries
+brew "skopeo"
+# Tail multiple Kubernetes pods & their containers
+brew "stern"
+# Tool to generate documentation from Terraform modules
+brew "terraform-docs"
+# Terminal multiplexer
+brew "tmux"
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
+# Vulnerability scanner for container images, file systems, and Git repos
+brew "trivy"
+# Extremely fast Python package installer and resolver, written in Rust
+brew "uv"
+# Vi 'workalike' with many additional features
+brew "vim"
+# Next generation frontend tooling. It's fast!
+brew "vite"
+# Executes a program periodically, showing output fullscreen
+brew "watch"
+# Internet file retriever
+brew "wget"
+# Process YAML, JSON, XML, CSV and properties documents from the CLI
+brew "yq"
+# A Kubernetes credential (exec) plugin implementing azure authentication
+brew "azure/kubelogin/kubelogin", trusted: true
+# CLI for GitOps continuous delivery
+brew "fluxcd/tap/flux", trusted: true
+# Terraform
+brew "hashicorp/tap/terraform", trusted: true
+# SDKMAN! the Software Development Kit Manager
+brew "sdkman/tap/sdkman-cli", trusted: true
+# AeroSpace is an i3-like tiling window manager for macOS
+cask "nikitabobko/tap/aerospace", trusted: true
+# Enable Windows-like alt-tab
+cask "alt-tab"
+# Utility for customizing which browser to start
+cask "finicky"
+# Terminal emulator that uses platform-native UI and GPU acceleration
+cask "ghostty"
+# Kubernetes and container management on the desktop
+cask "rancher"
+# Pluggable Terraform linter
+cask "terraform-linters/tap/tflint", trusted: true
+go "github.com/drone/envsubst/cmd/envsubst"
+go "golang.org/x/tools/gopls"
+cargo "tree-sitter-cli"
+npm "corepack"
